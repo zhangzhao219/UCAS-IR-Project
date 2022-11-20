@@ -127,3 +127,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+pretrained/
+trec_eval-9.0.7/
+runsh/
