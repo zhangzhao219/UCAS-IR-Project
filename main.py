@@ -146,7 +146,7 @@ def train(args, model, data):
     scheduler = optimizer
 
     if args.warmup != 0.0:
-        num_train_optimization_steps = dataset_len / args.baloadtch * args.epoch
+        num_train_optimization_steps = dataset_len / args.batch * args.epoch
         scheduler = get_linear_schedule_with_warmup(optimizer, int(num_train_optimization_steps*args.warmup), num_train_optimization_steps)
         
     early_stop_sign = deque(maxlen=args.early_stop)
