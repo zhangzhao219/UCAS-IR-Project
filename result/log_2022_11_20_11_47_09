@@ -1,0 +1,102 @@
+2022/11/20 11:47:20 [INFO] main.67 Log is ready!
+2022/11/20 11:47:20 [INFO] main.68 Namespace(batch=1024, bert='pretrained/google/electra-base-discriminator', board=False, data_folder_dir='2019', datetime='2022_11_20_11_47_09', early_stop=10, epoch=50, gpu=['8', '9', '10', '11'], load=False, lr=2e-05, model='bert_cat', predict=False, qid_pid=None, save=False, seed=42, test=True, test_data_file='msmarco-passagetest2019-43-top1000.tsv', test_result_file='2019qrels-pass.txt', train=False, train_document=None, train_query=None, warmup=0.0)
+2022/11/20 11:47:20 [INFO] main.77 GPU: 8,9,10,11
+2022/11/20 11:47:20 [INFO] main.88 Seed: 42
+2022/11/20 11:47:20 [INFO] main.377 Load pretrained/google/electra-base-discriminator Model
+2022/11/20 11:47:22 [INFO] main.111 Read test data: data/2019/msmarco-passagetest2019-43-top1000.tsv
+2022/11/20 11:47:44 [INFO] main.271 Start evaluate!
+2022/11/20 11:49:52 [INFO] main.335 NDCG_10: 0.0752
+2022/11/20 11:50:03 [INFO] main.67 Log is ready!
+2022/11/20 11:50:03 [INFO] main.68 Namespace(batch=256, bert='pretrained/google/electra-base-discriminator', board=True, data_folder_dir='2019', datetime='2022_11_20_11_47_09', early_stop=20, epoch=20, gpu=['8', '9', '10', '11'], load=False, lr=3e-05, model='bert_cat', predict=False, qid_pid='qidpidtriples.train.sampled.tsv', save=True, seed=42, test=False, test_data_file='msmarco-passagetest2019-43-top1000.tsv', test_result_file='2019qrels-pass.txt', train=True, train_document='collection.train.sampled.tsv', train_query='queries.train.sampled.tsv', warmup=0.0)
+2022/11/20 11:50:03 [INFO] main.72 Tensorboard is ready!
+2022/11/20 11:50:03 [INFO] main.77 GPU: 8,9,10,11
+2022/11/20 11:50:03 [INFO] main.88 Seed: 42
+2022/11/20 11:50:03 [INFO] main.377 Load pretrained/google/electra-base-discriminator Model
+2022/11/20 11:50:05 [INFO] main.111 Read test data: data/2019/msmarco-passagetest2019-43-top1000.tsv
+2022/11/20 11:50:27 [INFO] main.106 Read train data
+2022/11/20 11:50:27 [INFO] main.116 Start Training!
+2022/11/20 11:50:32 [INFO] main.123 Load pretrained/google/electra-base-discriminator Tokenizer
+2022/11/20 11:52:48 [INFO] main.271 Start evaluate!
+2022/11/20 11:53:25 [INFO] main.335 NDCG_10: 0.6766
+2022/11/20 11:53:25 [INFO] main.243 Eval Epoch = 1 NDCG_10:0.6766
+2022/11/20 11:53:25 [INFO] main.246 Test NDCG_10:0.6766 > max_metric!
+2022/11/20 11:53:27 [INFO] main.251 Best Model Saved!
+2022/11/20 11:55:05 [INFO] main.271 Start evaluate!
+2022/11/20 11:55:42 [INFO] main.335 NDCG_10: 0.6812
+2022/11/20 11:55:42 [INFO] main.243 Eval Epoch = 2 NDCG_10:0.6812
+2022/11/20 11:55:42 [INFO] main.246 Test NDCG_10:0.6812 > max_metric!
+2022/11/20 11:55:44 [INFO] main.251 Best Model Saved!
+2022/11/20 11:57:21 [INFO] main.271 Start evaluate!
+2022/11/20 11:58:00 [INFO] main.335 NDCG_10: 0.673
+2022/11/20 11:58:00 [INFO] main.243 Eval Epoch = 3 NDCG_10:0.673
+2022/11/20 11:59:37 [INFO] main.271 Start evaluate!
+2022/11/20 12:00:15 [INFO] main.335 NDCG_10: 0.6841
+2022/11/20 12:00:15 [INFO] main.243 Eval Epoch = 4 NDCG_10:0.6841
+2022/11/20 12:00:15 [INFO] main.246 Test NDCG_10:0.6841 > max_metric!
+2022/11/20 12:00:16 [INFO] main.251 Best Model Saved!
+2022/11/20 12:01:55 [INFO] main.271 Start evaluate!
+2022/11/20 12:02:33 [INFO] main.335 NDCG_10: 0.6602
+2022/11/20 12:02:33 [INFO] main.243 Eval Epoch = 5 NDCG_10:0.6602
+2022/11/20 12:04:11 [INFO] main.271 Start evaluate!
+2022/11/20 12:04:48 [INFO] main.335 NDCG_10: 0.6602
+2022/11/20 12:04:49 [INFO] main.243 Eval Epoch = 6 NDCG_10:0.6602
+2022/11/20 12:06:26 [INFO] main.271 Start evaluate!
+2022/11/20 12:07:04 [INFO] main.335 NDCG_10: 0.6546
+2022/11/20 12:07:04 [INFO] main.243 Eval Epoch = 7 NDCG_10:0.6546
+2022/11/20 12:08:42 [INFO] main.271 Start evaluate!
+2022/11/20 12:09:20 [INFO] main.335 NDCG_10: 0.6467
+2022/11/20 12:09:20 [INFO] main.243 Eval Epoch = 8 NDCG_10:0.6467
+2022/11/20 12:10:58 [INFO] main.271 Start evaluate!
+2022/11/20 12:11:36 [INFO] main.335 NDCG_10: 0.653
+2022/11/20 12:11:36 [INFO] main.243 Eval Epoch = 9 NDCG_10:0.653
+2022/11/20 12:13:13 [INFO] main.271 Start evaluate!
+2022/11/20 12:13:51 [INFO] main.335 NDCG_10: 0.6456
+2022/11/20 12:13:52 [INFO] main.243 Eval Epoch = 10 NDCG_10:0.6456
+2022/11/20 12:15:30 [INFO] main.271 Start evaluate!
+2022/11/20 12:16:09 [INFO] main.335 NDCG_10: 0.657
+2022/11/20 12:16:09 [INFO] main.243 Eval Epoch = 11 NDCG_10:0.657
+2022/11/20 12:17:47 [INFO] main.271 Start evaluate!
+2022/11/20 12:18:25 [INFO] main.335 NDCG_10: 0.654
+2022/11/20 12:18:25 [INFO] main.243 Eval Epoch = 12 NDCG_10:0.654
+2022/11/20 12:20:03 [INFO] main.271 Start evaluate!
+2022/11/20 12:20:41 [INFO] main.335 NDCG_10: 0.6427
+2022/11/20 12:20:41 [INFO] main.243 Eval Epoch = 13 NDCG_10:0.6427
+2022/11/20 12:22:19 [INFO] main.271 Start evaluate!
+2022/11/20 12:22:57 [INFO] main.335 NDCG_10: 0.6384
+2022/11/20 12:22:57 [INFO] main.243 Eval Epoch = 14 NDCG_10:0.6384
+2022/11/20 12:24:35 [INFO] main.271 Start evaluate!
+2022/11/20 12:25:13 [INFO] main.335 NDCG_10: 0.6464
+2022/11/20 12:25:13 [INFO] main.243 Eval Epoch = 15 NDCG_10:0.6464
+2022/11/20 12:26:50 [INFO] main.271 Start evaluate!
+2022/11/20 12:27:28 [INFO] main.335 NDCG_10: 0.6123
+2022/11/20 12:27:28 [INFO] main.243 Eval Epoch = 16 NDCG_10:0.6123
+2022/11/20 12:29:06 [INFO] main.271 Start evaluate!
+2022/11/20 12:29:44 [INFO] main.335 NDCG_10: 0.6566
+2022/11/20 12:29:44 [INFO] main.243 Eval Epoch = 17 NDCG_10:0.6566
+2022/11/20 12:31:22 [INFO] main.271 Start evaluate!
+2022/11/20 12:32:00 [INFO] main.335 NDCG_10: 0.6157
+2022/11/20 12:32:00 [INFO] main.243 Eval Epoch = 18 NDCG_10:0.6157
+2022/11/20 12:33:38 [INFO] main.271 Start evaluate!
+2022/11/20 12:34:16 [INFO] main.335 NDCG_10: 0.6193
+2022/11/20 12:34:16 [INFO] main.243 Eval Epoch = 19 NDCG_10:0.6193
+2022/11/20 12:35:53 [INFO] main.271 Start evaluate!
+2022/11/20 12:36:31 [INFO] main.335 NDCG_10: 0.6316
+2022/11/20 12:36:31 [INFO] main.243 Eval Epoch = 20 NDCG_10:0.6316
+2022/11/20 12:36:46 [INFO] main.67 Log is ready!
+2022/11/20 12:36:46 [INFO] main.68 Namespace(batch=1024, bert='pretrained/google/electra-base-discriminator', board=False, data_folder_dir='2019', datetime='2022_11_20_11_47_09', early_stop=10, epoch=50, gpu=['8', '9', '10', '11'], load=True, lr=2e-05, model='bert_cat', predict=False, qid_pid=None, save=False, seed=42, test=True, test_data_file='msmarco-passagetest2019-43-top1000.tsv', test_result_file='2019qrels-pass.txt', train=False, train_document=None, train_query=None, warmup=0.0)
+2022/11/20 12:36:46 [INFO] main.77 GPU: 8,9,10,11
+2022/11/20 12:36:46 [INFO] main.88 Seed: 42
+2022/11/20 12:36:46 [INFO] main.377 Load pretrained/google/electra-base-discriminator Model
+2022/11/20 12:36:48 [INFO] main.111 Read test data: data/2019/msmarco-passagetest2019-43-top1000.tsv
+2022/11/20 12:37:11 [INFO] main.271 Start evaluate!
+2022/11/20 12:37:17 [INFO] main.281 best.pt Loaded!
+2022/11/20 12:38:05 [INFO] main.335 NDCG_10: 0.6841
+2022/11/20 12:38:19 [INFO] main.67 Log is ready!
+2022/11/20 12:38:19 [INFO] main.68 Namespace(batch=1024, bert='pretrained/google/electra-base-discriminator', board=False, data_folder_dir='2020', datetime='2022_11_20_11_47_09', early_stop=10, epoch=50, gpu=['8', '9', '10', '11'], load=True, lr=2e-05, model='bert_cat', predict=True, qid_pid=None, save=False, seed=42, test=False, test_data_file='msmarco-passagetest2020-54-top1000.tsv', test_result_file='2020qrels-pass.txt', train=False, train_document=None, train_query=None, warmup=0.0)
+2022/11/20 12:38:19 [INFO] main.77 GPU: 8,9,10,11
+2022/11/20 12:38:19 [INFO] main.88 Seed: 42
+2022/11/20 12:38:19 [INFO] main.377 Load pretrained/google/electra-base-discriminator Model
+2022/11/20 12:38:21 [INFO] main.111 Read test data: data/2020/msmarco-passagetest2020-54-top1000.tsv
+2022/11/20 12:38:48 [INFO] main.271 Start evaluate!
+2022/11/20 12:38:53 [INFO] main.281 best.pt Loaded!
+2022/11/20 12:39:47 [INFO] main.335 NDCG_10: 0.7155

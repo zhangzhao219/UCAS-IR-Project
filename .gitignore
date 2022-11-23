@@ -128,8 +128,9 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-pretrained*
+*.bin
 trec_eval-9.0.7/
-runsh/
-no_warmup_results/
-warmup_results/
+*.zip
+IR.tar.gz
+log_ensemble_*
+*.pt

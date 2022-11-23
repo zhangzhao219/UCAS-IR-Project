@@ -1,0 +1,94 @@
+2022/11/21 05:01:39 [INFO] main.67 Log is ready!
+2022/11/21 05:01:39 [INFO] main.68 Namespace(batch=256, bert='pretrained/intfloat/simlm-base-msmarco', board=True, data_folder_dir='2019', datetime='2022_11_21_05_01_28', early_stop=20, epoch=20, gpu=['12', '13', '14', '15'], load=False, lr=3e-05, model='bert_sequence_classification', predict=False, qid_pid='qidpidtriples.train.sampled.tsv', save=True, seed=42, test=False, test_data_file='msmarco-passagetest2019-43-top1000.tsv', test_result_file='2019qrels-pass.txt', train=True, train_document='collection.train.sampled.tsv', train_query='queries.train.sampled.tsv', warmup=0.1)
+2022/11/21 05:01:39 [INFO] main.72 Tensorboard is ready!
+2022/11/21 05:01:39 [INFO] main.77 GPU: 12,13,14,15
+2022/11/21 05:01:39 [INFO] main.88 Seed: 42
+2022/11/21 05:01:39 [INFO] main.377 Load pretrained/intfloat/simlm-base-msmarco Model
+2022/11/21 05:01:40 [INFO] main.111 Read test data: data/2019/msmarco-passagetest2019-43-top1000.tsv
+2022/11/21 05:02:01 [INFO] main.106 Read train data
+2022/11/21 05:02:01 [INFO] main.116 Start Training!
+2022/11/21 05:02:05 [INFO] main.123 Load pretrained/intfloat/simlm-base-msmarco Tokenizer
+2022/11/21 05:04:13 [INFO] main.271 Start evaluate!
+2022/11/21 05:04:51 [INFO] main.335 NDCG_10: 0.505
+2022/11/21 05:04:51 [INFO] main.243 Eval Epoch = 1 NDCG_10:0.505
+2022/11/21 05:04:51 [INFO] main.246 Test NDCG_10:0.505 > max_metric!
+2022/11/21 05:04:52 [INFO] main.251 Best Model Saved!
+2022/11/21 05:06:29 [INFO] main.271 Start evaluate!
+2022/11/21 05:07:06 [INFO] main.335 NDCG_10: 0.653
+2022/11/21 05:07:06 [INFO] main.243 Eval Epoch = 2 NDCG_10:0.653
+2022/11/21 05:07:06 [INFO] main.246 Test NDCG_10:0.653 > max_metric!
+2022/11/21 05:07:07 [INFO] main.251 Best Model Saved!
+2022/11/21 05:08:43 [INFO] main.271 Start evaluate!
+2022/11/21 05:09:21 [INFO] main.335 NDCG_10: 0.6412
+2022/11/21 05:09:21 [INFO] main.243 Eval Epoch = 3 NDCG_10:0.6412
+2022/11/21 05:10:57 [INFO] main.271 Start evaluate!
+2022/11/21 05:11:34 [INFO] main.335 NDCG_10: 0.6555
+2022/11/21 05:11:34 [INFO] main.243 Eval Epoch = 4 NDCG_10:0.6555
+2022/11/21 05:11:34 [INFO] main.246 Test NDCG_10:0.6555 > max_metric!
+2022/11/21 05:11:35 [INFO] main.251 Best Model Saved!
+2022/11/21 05:13:13 [INFO] main.271 Start evaluate!
+2022/11/21 05:13:50 [INFO] main.335 NDCG_10: 0.6509
+2022/11/21 05:13:50 [INFO] main.243 Eval Epoch = 5 NDCG_10:0.6509
+2022/11/21 05:15:27 [INFO] main.271 Start evaluate!
+2022/11/21 05:16:04 [INFO] main.335 NDCG_10: 0.6438
+2022/11/21 05:16:04 [INFO] main.243 Eval Epoch = 6 NDCG_10:0.6438
+2022/11/21 05:17:42 [INFO] main.271 Start evaluate!
+2022/11/21 05:18:19 [INFO] main.335 NDCG_10: 0.6339
+2022/11/21 05:18:19 [INFO] main.243 Eval Epoch = 7 NDCG_10:0.6339
+2022/11/21 05:19:56 [INFO] main.271 Start evaluate!
+2022/11/21 05:20:33 [INFO] main.335 NDCG_10: 0.6422
+2022/11/21 05:20:33 [INFO] main.243 Eval Epoch = 8 NDCG_10:0.6422
+2022/11/21 05:22:11 [INFO] main.271 Start evaluate!
+2022/11/21 05:22:48 [INFO] main.335 NDCG_10: 0.6314
+2022/11/21 05:22:48 [INFO] main.243 Eval Epoch = 9 NDCG_10:0.6314
+2022/11/21 05:24:24 [INFO] main.271 Start evaluate!
+2022/11/21 05:25:02 [INFO] main.335 NDCG_10: 0.637
+2022/11/21 05:25:02 [INFO] main.243 Eval Epoch = 10 NDCG_10:0.637
+2022/11/21 05:26:39 [INFO] main.271 Start evaluate!
+2022/11/21 05:27:17 [INFO] main.335 NDCG_10: 0.642
+2022/11/21 05:27:17 [INFO] main.243 Eval Epoch = 11 NDCG_10:0.642
+2022/11/21 05:28:54 [INFO] main.271 Start evaluate!
+2022/11/21 05:29:32 [INFO] main.335 NDCG_10: 0.6393
+2022/11/21 05:29:32 [INFO] main.243 Eval Epoch = 12 NDCG_10:0.6393
+2022/11/21 05:31:09 [INFO] main.271 Start evaluate!
+2022/11/21 05:31:46 [INFO] main.335 NDCG_10: 0.6364
+2022/11/21 05:31:46 [INFO] main.243 Eval Epoch = 13 NDCG_10:0.6364
+2022/11/21 05:33:23 [INFO] main.271 Start evaluate!
+2022/11/21 05:34:00 [INFO] main.335 NDCG_10: 0.6365
+2022/11/21 05:34:00 [INFO] main.243 Eval Epoch = 14 NDCG_10:0.6365
+2022/11/21 05:35:37 [INFO] main.271 Start evaluate!
+2022/11/21 05:36:15 [INFO] main.335 NDCG_10: 0.6322
+2022/11/21 05:36:15 [INFO] main.243 Eval Epoch = 15 NDCG_10:0.6322
+2022/11/21 05:37:52 [INFO] main.271 Start evaluate!
+2022/11/21 05:38:29 [INFO] main.335 NDCG_10: 0.6372
+2022/11/21 05:38:29 [INFO] main.243 Eval Epoch = 16 NDCG_10:0.6372
+2022/11/21 05:40:05 [INFO] main.271 Start evaluate!
+2022/11/21 05:40:43 [INFO] main.335 NDCG_10: 0.629
+2022/11/21 05:40:43 [INFO] main.243 Eval Epoch = 17 NDCG_10:0.629
+2022/11/21 05:42:20 [INFO] main.271 Start evaluate!
+2022/11/21 05:42:58 [INFO] main.335 NDCG_10: 0.6331
+2022/11/21 05:42:58 [INFO] main.243 Eval Epoch = 18 NDCG_10:0.6331
+2022/11/21 05:44:34 [INFO] main.271 Start evaluate!
+2022/11/21 05:45:12 [INFO] main.335 NDCG_10: 0.6305
+2022/11/21 05:45:12 [INFO] main.243 Eval Epoch = 19 NDCG_10:0.6305
+2022/11/21 05:46:48 [INFO] main.271 Start evaluate!
+2022/11/21 05:47:26 [INFO] main.335 NDCG_10: 0.6302
+2022/11/21 05:47:26 [INFO] main.243 Eval Epoch = 20 NDCG_10:0.6302
+2022/11/21 05:47:40 [INFO] main.67 Log is ready!
+2022/11/21 05:47:40 [INFO] main.68 Namespace(batch=1024, bert='pretrained/intfloat/simlm-base-msmarco', board=False, data_folder_dir='2019', datetime='2022_11_21_05_01_28', early_stop=10, epoch=50, gpu=['12', '13', '14', '15'], load=True, lr=2e-05, model='bert_sequence_classification', predict=False, qid_pid=None, save=False, seed=42, test=True, test_data_file='msmarco-passagetest2019-43-top1000.tsv', test_result_file='2019qrels-pass.txt', train=False, train_document=None, train_query=None, warmup=0.0)
+2022/11/21 05:47:40 [INFO] main.77 GPU: 12,13,14,15
+2022/11/21 05:47:40 [INFO] main.88 Seed: 42
+2022/11/21 05:47:40 [INFO] main.377 Load pretrained/intfloat/simlm-base-msmarco Model
+2022/11/21 05:47:42 [INFO] main.111 Read test data: data/2019/msmarco-passagetest2019-43-top1000.tsv
+2022/11/21 05:48:02 [INFO] main.271 Start evaluate!
+2022/11/21 05:48:09 [INFO] main.281 best.pt Loaded!
+2022/11/21 05:48:58 [INFO] main.335 NDCG_10: 0.6555
+2022/11/21 05:49:08 [INFO] main.67 Log is ready!
+2022/11/21 05:49:08 [INFO] main.68 Namespace(batch=1024, bert='pretrained/intfloat/simlm-base-msmarco', board=False, data_folder_dir='2020', datetime='2022_11_21_05_01_28', early_stop=10, epoch=50, gpu=['12', '13', '14', '15'], load=True, lr=2e-05, model='bert_sequence_classification', predict=True, qid_pid=None, save=False, seed=42, test=False, test_data_file='msmarco-passagetest2020-54-top1000.tsv', test_result_file='2020qrels-pass.txt', train=False, train_document=None, train_query=None, warmup=0.0)
+2022/11/21 05:49:08 [INFO] main.77 GPU: 12,13,14,15
+2022/11/21 05:49:08 [INFO] main.88 Seed: 42
+2022/11/21 05:49:08 [INFO] main.377 Load pretrained/intfloat/simlm-base-msmarco Model
+2022/11/21 05:49:10 [INFO] main.111 Read test data: data/2020/msmarco-passagetest2020-54-top1000.tsv
+2022/11/21 05:49:35 [INFO] main.271 Start evaluate!
+2022/11/21 05:49:41 [INFO] main.281 best.pt Loaded!
+2022/11/21 05:50:39 [INFO] main.335 NDCG_10: 0.6739
