@@ -2,7 +2,11 @@
 
 Information Retrieval Project in UCAS
 
-目前实现了三种模型，使用了七种预训练正在进行实验
+## 任务描述
+
+使用采样后的TREC 2019训练数据，在TREC 2020 Passage Ranking的子赛道Passage Re-ranking进行检索竞赛。
+
+实现了三种模型，使用七种预训练进行实验
 
 ```bash
 MODEL=bert_sequence_classification
@@ -20,9 +24,9 @@ BERT='pretrained/caskcsg/cotmae_base_msmarco_reranker'
 BERT='pretrained/intfloat/simlm-msmarco-reranker'
 ```
 
-更改 `run_example.sh`即可运行代码（记得调整参数）
+**最终的三个模型的实验结果NDCG@10分别为0.7155，0.6739和0.7615**
 
-## 实验结果
+## 实验日志
 
 Tesla V100 32G * 4，epoch=20，lr=3e-05，seed=42
 
